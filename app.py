@@ -122,7 +122,7 @@ def save_qualifying_loans(qualifying_loans):
         csvpath = Path(csvpath)
 
         save_csv(csvpath, qualifying_loans)
-        
+
     else: sys.exit("Thank you for using the app.")
 
     
